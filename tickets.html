@@ -51,10 +51,11 @@
                 <input type="text" class="nombre" id="exampleFormControlInput1" placeholder="  Nombre">
                 <input type="text" class="apellido" id="exampleFormControlInput1" placeholder="  Apellido">
                 <input type="email" class="correo" id="exampleFormControlInput1" placeholder="Correo">
-                <p class="cant">Cantidad</p>
-                <input type="number" class="cantidad" id="exampleFormControlInput1" placeholder="Cantidad">
+               
              
-                <form>
+                <form id="form">
+                  <p class="cant">Cantidad</p>
+                  <input type="number" class="cantidad" id="canti" placeholder="Cantidad">
                     <p class="cat">Categoria</p>
                     <select name="categorias" id="select">
                         
@@ -66,7 +67,7 @@
               </div>
 
 
-              <div id="total"><p class="pagar">Total a pagar: $</p></div>
+              <div id="total"><p class="pagar">Total a pagar: $ <span class="desc"></span></p></div>
 
               
 
@@ -97,5 +98,8 @@
     </div>
     
 </div>
+
+
+<script src="comprar.js"> </script>
 </body>
 </html>
